@@ -248,18 +248,18 @@ transition: .5s;
 
 /* sponsors section start here */
 
-.sponspors-title{
+.sponsors-title{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-top: 100px;
 }
-.sponspors-title h1{
+.sponsors-title h1{
     font-size: 60px;
     color: var(--primary-color);
 }
-.sponspors-title p{
+.sponsors-title p{
     width: 550px;
     text-align: center;
     margin-top: -10px;
@@ -437,10 +437,10 @@ transition: .5s;
         gap: 35px;
     }
 
-    .feedback-title,.sponspors-title h1{
+    .feedback-title,.sponsors-title h1{
         font-size: 50px;
     }
-    .sponspors-title p {
+    .sponsors-title p {
         width: 100%;
     }
 
@@ -511,7 +511,7 @@ transition: .5s;
     align-items: center;
     justify-items: center;
    }
-   .sponspors-title{
+   .sponsors-title{
     margin-top: 35px;
    }
    .sponsor-container{
