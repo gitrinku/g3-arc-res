@@ -67,6 +67,12 @@ header {
     color: var(--primary-color);
     font-weight: 500;
 }
+.nav-links a:hover{
+
+    background-color: palevioletred;
+    border: palevioletred ;
+    border: 10px;
+}
 
 .header-content {
     width: 850px;
