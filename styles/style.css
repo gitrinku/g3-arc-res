@@ -95,33 +95,33 @@ header {
 
 
 /* main section styles start here */
-.features-container {
+.feature-container {
     width: 100%;
     display: flex;
     gap: 70px;
     margin-top: 80px;
 }
 
-.features-img {
+.feature-img {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 24px;
 }
 
-.features-img img {
+.feature-img img {
     width: 340px;
     height: 340px;
 }
 
-.features-content {
+.feature-content {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
 }
 
-.features-content h1 {
+.feature-content h1 {
     font-size: 45px;
     line-height: 60px;
     margin-bottom: 24px;
@@ -131,21 +131,22 @@ header {
     color: var(--secondry-color);
 }
 
-#features {
+#feature {
     color: #FF900E;
 }
 
-/* Services section style start here */
-.services-container{
+/* service section style start here */
+.service-container{
     width: 100%;
     display: flex;
     gap: 55px;
     margin-top: 130px;
 
 }
-.services-content{
+.service-contents{
     width: 45%;
     height: auto;
+    margin-right: 150px;
 }
 .service-header{
     border-left: 3px solid #FF900E;
@@ -178,7 +179,8 @@ header {
     background-color: #FF900E;
     color: #ffffff;
     position: relative;
-    margin-top: -150px;
+    margin-top: -90px;
+    margin-left: -50px;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -195,7 +197,7 @@ header {
     font-weight: 500;
     margin-top: -20px;
 }
-/* Services section style ends here */
+/* service section style ends here */
 
 
 /* fact section styles start here */
@@ -281,7 +283,7 @@ transition: .5s;
 
 /* sponsors section ends here */
 
-/* client feedback section start here */
+/* Extra section added for Bonus Mark */
 .clients-feedbacks-container{
     margin-top: 100px;
 }
@@ -385,24 +387,24 @@ transition: .5s;
     .header-img{
         height: 400px;
     }
-    /* features container */
+    /* feature container */
 
 
-    .features-container{
+    .feature-container{
         flex-direction: column;
         align-items: center;
     }
-    .features-img {
+    .feature-img {
         grid-template-columns: repeat(1,1fr);
         margin-top: 150px;
     }
-    .features-content{
+    .feature-content{
         align-items: center;
         text-align: center;
     }
 
-    /* Services section */
-    .services-container {
+    /* service section */
+    .service-container {
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -411,7 +413,7 @@ transition: .5s;
         width: 80%;
         margin: 20px auto;
     }
-    .services-img img{
+    .service-img img{
         width: 100%;
         height: 100%;
     }
@@ -479,18 +481,19 @@ transition: .5s;
    .header-content h1{
     font-size: 50px;
    }
-   .features-container{
+   .feature-container{
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
    }
-   .features-content{
-    width: 80%;
+   .feature-content{
+    width: 85%;
+    height: auto;
     align-items: center;
     text-align: center;
 
    }
-   .services-container{
+   .service-container{
     flex-direction: column;
     align-items: center;
     
